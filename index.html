@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <title>Prisma Finance</title>
 </head>
 <body>
-    <header class="containerNav">
-        <div class="logoHeader">
-            <img class="logoImage" src="/assets/images/image.png" alt="logo Prisma">
-            <p class="">Prisma Finance</p>
+    <header class="d-flex justify-content-around align-items-center border-bottom border-1 border-black">
+        <div class="d-flex justify-content-start align-items-end">
+            <img width="90" src="/assets/images/logo.png" alt="logo Prisma">
+            <p class="fs-2 fw-semibold">Prisma Finance</p>
         </div>
 
-        <nav>
-            <ul>
-                <li>Clientes</li>
-                <li>Fale conosco</li>
+        <nav class="mt-4">
+            <ul class="d-flex justify-content-around gap-4 list-unstyled fs-6 fw-semibold">
+                <a>Clientes</a>
+                <a>Sobre nos</a>
+                <a class="bg-success p-1 rounded-2 link-underline-success text-white ">Fale conosco</a>
             </ul>
         </nav>
     </header>
-    <script src="scripts/script.js"></script>
+
+    <main>
+        <div class="bg-black vh-100 position-relative">
+          <img class="w-100 vh-100 object-fit-cover" src="assets/images/banner.jpg" alt="banner">
+          <h1 class="position-absolute top-50 start-50 translate-middle text-black text-center px-3">
+            Prisma Finance
+          </h1>
+          <p class="position-absolute top-50 start-50 translate-middle text-black text-center ">
+            Refletindo o melhor caminho para seu dinheiro.
+          </p>
+        </div>
+      </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
